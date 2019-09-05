@@ -3,21 +3,22 @@
 
 ### Some screenshots:
 
-![alt text](https://github.com/Ashis-007/ProjectSnL/Screenshots/Capture.JPG)
+!(https://github.com/Ashis-007/ProjectSnL/Screenshots/Capture.JPG)
 
 ***
 
-![alt text](https://github.com/Ashis-007/ProjectSnL/Screenshots/Capture2.JPG)
+!(https://github.com/Ashis-007/ProjectSnL/Screenshots/Capture2.JPG)
 
 ***
 
-![alt text](https://github.com/Ashis-007/ProjectSnL/Screenshots/Capture3.JPG)
+!(https://github.com/Ashis-007/ProjectSnL/Screenshots/Capture3.JPG)
 
 ***
 
 
 ### This masterpiece is created by none other than
 [Subhransu Dash](https://github.com/Ashis-007)
+
 [Sanket KN](https://github.com/SanketKN)
 
 
