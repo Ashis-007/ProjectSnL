@@ -3,15 +3,15 @@
 
 ### Some screenshots:
 
-(https://github.com/Ashis-007/ProjectSnL/Screenshots/Capture.JPG)
+(https://github.com/Ashis-007/ProjectSnL/blob/master/Screenshots/Capture.JPG)
 
 ***
 
-(https://github.com/Ashis-007/ProjectSnL/Screenshots/Capture2.JPG)
+(https://github.com/Ashis-007/ProjectSnL/blob/master/Screenshots/Capture2.JPG)
 
 ***
 
-(https://github.com/Ashis-007/ProjectSnL/Screenshots/Capture3.JPG)
+(https://github.com/Ashis-007/ProjectSnL/blob/master/Screenshots/Capture3.JPG)
 
 ***
 
