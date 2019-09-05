@@ -3,15 +3,15 @@
 
 ### Some screenshots:
 
-![1](https://github.com/Ashis-007/ProjectSnL/blob/master/Screenshots/Capture.JPG)
+![](https://github.com/Ashis-007/ProjectSnL/blob/master/Screenshots/Capture.JPG "Surprised ?")
 
 ***
 
-(https://github.com/Ashis-007/ProjectSnL/blob/master/Screenshots/Capture2.JPG)
+![](https://github.com/Ashis-007/ProjectSnL/blob/master/Screenshots/Capture2.JPG "Just amazing! Isn't it ?")
 
 ***
 
-(https://github.com/Ashis-007/ProjectSnL/blob/master/Screenshots/Capture3.JPG)
+![](https://github.com/Ashis-007/ProjectSnL/blob/master/Screenshots/Capture3.JPG "Now that's innovation")
 
 ***
 
