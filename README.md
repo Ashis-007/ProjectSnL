@@ -3,7 +3,7 @@
 
 ### Some screenshots:
 
-(https://github.com/Ashis-007/ProjectSnL/blob/master/Screenshots/Capture.JPG)
+![1](https://github.com/Ashis-007/ProjectSnL/blob/master/Screenshots/Capture.JPG)
 
 ***
 
