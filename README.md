@@ -16,7 +16,8 @@
 5. Open CodeBlocks. Go to Settings >> Compiler >> Linker settings.
 6. In that window, click the Add button under the “Link libraries” part, and browse. Select the libbgi.a file copied to the lib folder in step 4.
 7. In right part (ie. other linker options) paste the following commands:
-    -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
+    
+    **-lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32**
 8. Click OK.
 9. Open graphics.h file (pasted in include folder in step 3) with Notepad++. Go to line number **302**, and replace that line with this line : **int left=0, int top=0, int right=INT_MAX, int bottom=INT_MAX,**
 10. Save the file. Done!
