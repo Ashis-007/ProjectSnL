@@ -11,11 +11,11 @@
 * graphics.h
 * winbgim.h
 * libbgi.a
-3. Copy and paste graphics.h and winbgim.h files into the include folder of compiler directory. (If you have Code::Blocks installed in C drive of your computer, go through: Disk C >> Program Files >> CodeBlocks >> MinGW >> include. Paste these two files there.)
-4. Copy and paste libbgi.a to the lib folder (inside MinGW folder) of compiler directory.
+3. Copy and paste _graphics.h_ and _winbgim.h_ files into the **include** folder of compiler directory. (If you have Code::Blocks installed in C drive of your computer, go through: Disk C >> Program Files >> CodeBlocks >> MinGW >> include. Paste these two files there.)
+4. Copy and paste **libbgi.a** to the **lib** folder (inside **MinGW** folder) of compiler directory.
 5. Open CodeBlocks. Go to Settings >> Compiler >> Linker settings.
-6. In that window, click the Add button under the “Link libraries” part, and browse. Select the libbgi.a file copied to the lib folder in step 4.
-7. In right part (ie. other linker options) paste the following commands:
+6. In that window, click the **Add** button under the “Link libraries” part, and browse. Select the **libbgi.a** file copied to the **lib** folder in step 4.
+7. In right part (ie. _other linker options_) paste the following commands:
     
     **-lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32**
 8. Click OK.
