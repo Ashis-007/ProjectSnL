@@ -27,8 +27,8 @@ void board()
 
     settextstyle(TRIPLEX_FONT, HORIZ_DIR, 16);
     setfillstyle(10, BLUE);
-    arc(275, 500, 270, 80, 100);
-    arc(275, 515, 270, 90, 85);
+    //arc(275, 500, 270, 80, 100);
+    //arc(275, 515, 270, 90, 85);
     setcolor(CYAN);
     setlinestyle(SOLID_FILL, 0, 4);
 
@@ -590,53 +590,6 @@ void snakes()
 }
 
 
-
-
-void snake2()
-{
-    arc(255,118,320,0,170);
-    arc(265,118,305,0,170);
-    line(384,229,361,260);
-    line(425,120,429,105);
-    line(428,105,435,120);
-    line(428,105,429,100);
-    circle(430,115,1);
-}
-
-void snake3()
-{
-    int x,y=10,h=2;
-    for(x=100;x<=300;x+=125)
-    {
-        arc(120+x,110+y,10,85,60);
-        arc(258+x,85+y,190,240,80);
-        arc(112+x,118+y,10,80,60);
-        arc(250+x,93+y,190,290,80);
-        arc(275+x,100+y,250,270,70);
-        line(250+x,170+y,250+x,165+y);
-        line(250+x,165+y,230+x,160+y);
-        line(230+x,160+y,218+x,155+y);
-        line(130+x,50+y,115+x,47+y);
-        line(121+x,59+y,106+x,52+y);
-        line(106+x,52+y,114+x,48+y);
-        circle(114+x,52+y,1);
-        setfillstyle(1,h);
-        //floodfill(116+x,52+y,8);
-        y+=230; h+=8;
-    }
-}
-
-
-void snake4()
-{
-    ellipse(550, 500, 270, 65, 90, 120);
-    ellipse(560, 510, 270, 70, 65, 110);
-    int points[8] = { 580, 405, 570, 380, 605, 400};
-    drawpoly(3, points);
-    circle(585, 395, 2);
-}
-
-
 int dice1()
 {
     srand(time(NULL));
@@ -645,7 +598,6 @@ int dice1()
     setcolor(15);
     char arr[3];
     sprintf(arr, "%d",num);
-    //settextstyle(SANS_SERIF_FONT, HORIZ_DIR, 1);
     outtextxy(837, 307, arr);
 
     return num;
@@ -661,7 +613,6 @@ int dice2()
     setcolor(15);
     char arr[3];
     sprintf(arr, "%d",num);
-    //settextstyle(SANS_SERIF_FONT, HORIZ_DIR, 1);
     outtextxy(1337, 307, arr);
 
     return num;
@@ -722,14 +673,12 @@ void display()
     board();
     sideboard();
 
-    setcolor(RED);
+    setcolor(RED);          //for the snakes
     setlinestyle(0, 0, 3);
     snakes();
-    //snake2();
-    //snake3();
-    //snake4();
 
-    setcolor(CYAN);
+
+    setcolor(CYAN);         //for the ladders
     setlinestyle(1, 0, 3);
     ladders();
 
@@ -763,7 +712,7 @@ int main()
 
     num1 = 0, num2 = 0;
 
-    while(num1 != 1 && num2 != 1)    //game starts when player gets 1
+    while(num1 != 1 && num2 != 1)    //game starts when a player gets 1
     {
         if(player == 1)
         {
@@ -904,7 +853,7 @@ int main()
                 keep_marker1();
 
                 num2 = dice2();      //roll the dice
-                marker2();      //move the marker
+                marker2();           //move the marker
 
                 if(num2 == 6)      //if 6 appears then roll the dice again
                     continue;
